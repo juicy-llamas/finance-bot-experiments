@@ -10,5 +10,47 @@ There are more established (digital) markets other than stocks, like foreign exc
 
 ------------
 
-Ok so stocks. Great. 
+So for stocks (and options / anything that trades with companies), I'll be looking at these things:
+	- Raw stats
+		- Price of the stock, obviously.
+		- Revenue of the company.
+		- Net income.
+		- Profit margin.
+		- Total equity of the company such as assets.
+		- Total amount of debt the company has taken on.
+		- Debt to Equity
+		- Quarterly Debt / Quarterly Earnings
+		- More, depends on if I need them because these can get somewhat redundant.
+	- Market
+		- Market trading volume, or at least the most accurate representation I can find.
+		- Company market share
+		- Is this market new or old?
+			- Is there anything possibly superseding this market? Ex. Clean energy superseds gas (kinda)
+			- If the market is shrinking, how rapidly is it shrinking?
+		- Market events
+			- Wars / disasters?
+			- Countries banning?
+			- Other news about product?
+			- Duration on the event? Or permanent?
+			- Is this correlated with stock price?
+	- Consumers
+		- Consumer target demographic (is this a demographic that is proftiable?)
+		- demographic / market fit (if this company targets x consumer, do others in the same market do the same?)
+		- Consumer feedback on product, if available.
+		-
+	- INSIDE BUYING, a somewhat niche but important metric
+		- Buying or selling? Who? How much?
+	- CORPORATE BONDS
+		- stuff
+
+AND HOW SHALT WE GET SAID STATS?
+	- I can scrape the 'raw stats' from TIKR possibly, if I login with credentials
+	-
+
+Objectives:
+	1. Form an all-encompassing list of companies
+		- how???????????
+		- find one initially
+
+
 

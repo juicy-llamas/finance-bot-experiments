@@ -10,12 +10,12 @@ import bs4 as bs
 import warnings
 warnings.filterwarnings( "ignore", message = r"Unverified HTTPS request" )
 
-#Global Settings
+# Global Settings
 PROXY_PROTOCOL = 'socks4'
 COUNTRY = 'US'
 VERBOSE = True
 
-#Helper Methods / Objects
+# Helper Methods / Objects
 def p_obj ( proxy ):
 	return { 'http': PROXY_PROTOCOL + '://' + proxy, 'https': PROXY_PROTOCOL + '://' + proxy }
 
@@ -85,7 +85,8 @@ class p_sesh:
 				self.change_proxy()
 				self.new_request( url, method, _retries + 1 )
 			else:
-				print( "Couldn't connect" )
+				if VERBOSE:
+					print( "Couldn't connect" )
 		if self.st[ 1 ] > 0:
 			sleep( randrange( *(self.st) ) )
 		
@@ -160,4 +161,4 @@ class p_sesh:
 			#print( p_sesh.proxy_list )
 		#exit()
 
-print( p_sesh( "https://steamcommunity.com/market/" ).last_result.text )
+#print( p_sesh( "https://steamcommunity.com/market/" ).last_result.text )
